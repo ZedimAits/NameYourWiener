@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "dev": "npx tsc --watch & lite-server"
+  }
+}
