@@ -49,7 +49,7 @@ export const countryNames = [
     "Hindi",
     "Russian",
     "Norse",
-    "Irish ",
+    "Irish",
     "Gaelic",
     "Hawaiian",
     "Czech",

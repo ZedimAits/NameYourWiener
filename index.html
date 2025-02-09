@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TypeScript Test</title>
 	<link rel="icon" href="./resource/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div>
+	<div id="title">
     	<h1>TypeScript Webseite</h1>
 	</div>
-	<div>
-		<div id="output"></div>
-		<input id="input_text"/>
-		<button id="input_button">Enter</button>
+	<div id="ui">
+		<div id="output_text"></div>
+		<div id="output_name"></div>
+		<div class="input">
+			<input id="input_text"/>
+			<button id="input_button">Enter</button>
+		</div>
 	</div>
     <script defer type="module" src="./dist/index.js"></script>
 </body>
